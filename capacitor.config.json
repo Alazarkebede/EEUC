@@ -1,6 +1,6 @@
 {
-     "appId": "com.alazar.electricity",
-     "appName": "Electricity Calculator",
-     "webDir": ".",
-     "bundledWebRuntime": false
-   }
+  "appId": "com.alazar.electricity",
+  "appName": "Electricity Calculator",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
