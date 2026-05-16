@@ -27,12 +27,12 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      # ✅ REMOVED: cap init — already have capacitor.config.json
+      - name: Prepare web folder
+        run: mkdir -p www && cp index.html www/
 
       - name: Add Android Platform
         run: npx cap add android
 
-      # ✅ ADDED: copies index.html into the Android project
       - name: Copy Web Assets
         run: npx cap copy android
 
